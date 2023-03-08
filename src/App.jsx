@@ -1,13 +1,9 @@
-import { useState } from 'react'
-import Card from './Components/Card'
 import './App.css'
+import Form from './Components/Form'
 
 function App() {
-
   return (
-    <div className="App">
-      <Card />
-    </div>
+    <Form/>
   )
 }
 

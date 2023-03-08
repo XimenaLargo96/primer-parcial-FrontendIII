@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+}
+.data{
+    display: grid;
+}
+input{
+    margin-bottom: 30px;
+    height: 30px;
+    font-size: 15px;
+    padding: auto;
+    border-radius: 5px;
+    border: 0.5px solid silver;
+  }
+  
+  .data{
+    display: grid;
+  }
+  
+  .buttonSubmit{
+    background-color: #3ab1a5;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .success{
+    border-radius: 5px;
+    border: 1px solid silver;
+    width: 300px;
+    padding: 0;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 5%;
+  }
+  
+  .error{
+    color: red;
+  }
